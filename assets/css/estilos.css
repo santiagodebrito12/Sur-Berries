@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    transition: 2s all ease;
+} 
+body.dark{
+    background-color: gray;
+}
+
+header{
+    width:100%;
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    transition: 2s all ease;
+}
+header.dark{
+    background-color: gray;
+}
+.nav{
+    width: 70%;
+    font-size: 24px;
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    padding: 15px;
+}
+.enlaces-nav{ 
+    font-family: 'Montserrat', sans-serif;
+     padding: 15px; 
+    font-size: 20px;
+    font-weight: bold;
+    color: pink;
+    text-decoration: none;
+    cursor: pointer;  
+}
+a:hover{
+    color: gray;
+    background-color: pink;
+    border-radius: 35%;
+}
+
+.contenedor-titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+section{
+    width: 100%;
+    height: auto; 
+    transition: 3s all ease;  
+}
+.section1{
+    margin-top: 100px;
+}
+.section1 h2{
+
+    text-align: center;
+    transition: 3s all ease;
+    /* si se quieren indicar 4 valores 
+    es top , derecho ,inferior , izquierdo */
+}
+.contenedor-cartas{
+    margin-top: 25px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 30%;
+    height: 450px;
+    border: 1px solid gray;
+    text-align: center;
+    transition: 3s all ease;
+}
+.card img{
+    width: 95%;
+    height: 65%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 5%;
+}
+.card h2{
+    border-bottom: 1px solid gray;
+}
+.card p {
+    margin: 5px;
+    font-size: 16px;
+}
+/* section.quienes-somos{
+    margin-top: 350px;
+} */
+div.contenedor{
+    width: 100%;
+    height: auto;  
+    display: flex;
+}
+div.contenedor-img{
+    width: 60%;
+
+}
+div.contenedor-info{
+    width: 40%;
+ 
+}
+.imagen-mate{
+    margin-top: 60px;
+    margin-left: 30px;
+    border-radius: 5%;
+    width: 650px;
+    height: 450px;
+    transition: 3s all ease;
+}
+
+div.contenedor-info h2{
+    margin-top: 25px;
+    text-align: center;
+}
+div.contenedor-info p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+section.puntos-de-venta{
+    transition: 3s all ease ;
+    width: 100%;
+    margin-top: 150px;
+}
+section.puntos-de-venta h2{
+    text-align: center;
+}
+.contenedor-redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.redes{
+    font-size: 10px;
+    padding: 15px;
+}
