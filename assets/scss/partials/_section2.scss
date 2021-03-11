@@ -1,0 +1,70 @@
+@media(max-width:768px){
+section.quienes-somos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contenedor-img{
+    margin: auto;
+    width: 90%;
+    align-content: center;
+    
+}
+.imagen-mate{
+    border-radius: 5%;
+    margin: auto;
+    width: 100%;
+}
+div.contenedor-info{
+    width: 90%;
+    margin: 25px auto 0 auto;
+    align-content: center;   
+}
+div.contenedor-info{
+    h2{
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+        border-bottom: 1px solid gray;
+
+    }
+    p{
+         padding: 10px;
+    }
+}
+
+}
+
+@media(min-width:768px){
+
+div.contenedor{
+    width: 100%;
+    height: auto;  
+    display: flex;
+}
+div.contenedor-img{
+    width: 60%;
+
+}
+div.contenedor-info{
+    width: 40%;
+ 
+}
+.imagen-mate{
+    margin-top: 60px;
+    margin-left: 30px;
+    border-radius: 5%;
+    width: 650px;
+    height: 450px;
+    transition: 3s all ease;
+}
+
+div.contenedor-info h2{
+    margin-top: 25px;
+    text-align: center;
+}
+div.contenedor-info p{
+    margin-top: 30px;
+    text-align: center;
+}
+}
